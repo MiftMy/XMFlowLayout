@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XMFlowLayout_Example' do
+  pod 'XMFlowLayout', :path => '../'
+
+  target 'XMFlowLayout_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end
