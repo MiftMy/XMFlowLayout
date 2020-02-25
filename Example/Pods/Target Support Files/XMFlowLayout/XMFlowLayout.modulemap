@@ -1,0 +1,6 @@
+framework module XMFlowLayout {
+  umbrella header "XMFlowLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

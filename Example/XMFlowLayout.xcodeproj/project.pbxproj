@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B67F217E0242093D15C9859 /* XMFlowLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XMFlowLayout.podspec; path = ../XMFlowLayout.podspec; sourceTree = "<group>"; };
+		5B67F217E0242093D15C9859 /* XMFlowLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMFlowLayout.podspec; path = ../XMFlowLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5DF7B3EF0B43F8F9023052F7 /* Pods-XMFlowLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMFlowLayout_Tests.release.xcconfig"; path = "Target Support Files/Pods-XMFlowLayout_Tests/Pods-XMFlowLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XMFlowLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMFlowLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		76B3F1CA5D8E23B603A68CE8 /* Pods_XMFlowLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMFlowLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93BA5AD3621D0F0C13F31CCB /* Pods-XMFlowLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMFlowLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XMFlowLayout_Tests/Pods-XMFlowLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		94C34E432FB9D05FE29238F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B1E9019F1F544D256580FB59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		94C34E432FB9D05FE29238F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1E9019F1F544D256580FB59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BBC1E2ACB1AFC02A71DEC378 /* Pods-XMFlowLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMFlowLayout_Example.release.xcconfig"; path = "Target Support Files/Pods-XMFlowLayout_Example/Pods-XMFlowLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EDD6F90EA1E7D417F01F0BA1 /* Pods-XMFlowLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMFlowLayout_Example.debug.xcconfig"; path = "Target Support Files/Pods-XMFlowLayout_Example/Pods-XMFlowLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				93BA5AD3621D0F0C13F31CCB /* Pods-XMFlowLayout_Tests.debug.xcconfig */,
 				5DF7B3EF0B43F8F9023052F7 /* Pods-XMFlowLayout_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
